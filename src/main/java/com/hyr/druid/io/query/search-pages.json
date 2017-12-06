@@ -1,0 +1,15 @@
+{
+  "queryType" : "search",
+  "dataSource" : "wikiticker",
+  "intervals" : ["2015-09-12/2015-09-13"],
+  "granularity" : "all",
+  "limit": 10,
+  "searchDimensions": ["user","cityName","isRobot"],
+  "query": {
+    "type": "insensitive_contains",
+    "value": "Auburn"
+  },
+  "sort" : {
+    "type": "lexicographic"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "queryType" : "timeseries",
+  "dataSource" : "wikiticker",
+  "intervals" : ["2015-09-12/2015-09-20"],
+  "granularity" : "hour",
+  "dimension" : "page",
+  "metric" : "edits,added",
+  "descending": "true",
+  "aggregations" : [
+	{
+          "name" : "count",
+          "type" : "count"
+        },
+        {
+          "name" : "added",
+          "type" : "longSum",
+          "fieldName" : "added"
+        },
+        {
+          "name" : "deleted",
+          "type" : "longSum",
+          "fieldName" : "deleted"
+        },
+        {
+          "name" : "delta",
+          "type" : "longSum",
+          "fieldName" : "delta"
+        }
+  ]
+}

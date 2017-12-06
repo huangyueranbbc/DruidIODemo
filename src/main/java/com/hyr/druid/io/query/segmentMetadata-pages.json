@@ -1,0 +1,5 @@
+{
+  "queryType":"segmentMetadata",
+  "dataSource":"wikiticker",
+  "intervals":["2013-01-01/2019-01-01"]
+}

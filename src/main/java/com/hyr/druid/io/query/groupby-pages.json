@@ -1,0 +1,29 @@
+{
+  "queryType" : "groupBy",
+  "dataSource" : "wikiticker",
+  "granularity" : "all",
+  "dimensions" : ["cityName"],
+  "limitSpec": { "type": "default", "limit": 5000, "columns": ["cityName", "deleted"] },
+  "intervals" : ["2015-09-12/2015-09-20"],
+  "aggregations" : [
+	{
+          "name" : "count",
+          "type" : "count"
+        },
+        {
+          "name" : "added",
+          "type" : "longSum",
+          "fieldName" : "added"
+        },
+        {
+          "name" : "deleted",
+          "type" : "longSum",
+          "fieldName" : "deleted"
+        },
+        {
+          "name" : "delta",
+          "type" : "longSum",
+          "fieldName" : "delta"
+        }
+  ]
+}

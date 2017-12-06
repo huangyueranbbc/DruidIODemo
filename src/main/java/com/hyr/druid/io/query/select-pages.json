@@ -1,0 +1,14 @@
+{
+  "queryType" : "select",
+  "dataSource" : "wikiticker",
+  "intervals" : ["2015-09-12/2015-09-13"],
+  "granularity" : "all",
+  "dimensions": ["channel","cityName","comment","countryIsoCode","countryName","isAnonymous","isMinor","isNew","isRobot","isUnpatrolled","metroCode","namespace","page","regionIsoCode","regionName","user"],
+  "pagingSpec":{
+   "pagingIdentifiers":{},
+   "threshold":3
+  },
+  "context" : {
+   "skipEmptyBuckets" : "true"
+  }
+}

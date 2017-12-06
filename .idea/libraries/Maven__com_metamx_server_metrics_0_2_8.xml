@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.metamx:server-metrics:0.2.8">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/metamx/server-metrics/0.2.8/server-metrics-0.2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/metamx/server-metrics/0.2.8/server-metrics-0.2.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/metamx/server-metrics/0.2.8/server-metrics-0.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

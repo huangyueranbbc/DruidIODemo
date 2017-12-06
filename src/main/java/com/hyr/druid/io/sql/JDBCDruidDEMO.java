@@ -7,10 +7,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /*******************************************************************************
- * 版权信息：博睿宏远科技发展有限公司
- * Copyright: Copyright (c) 2007博睿宏远科技发展有限公司,Inc.All Rights Reserved.
- *
- * @date 2017-12-06 下午 3:40 
+ * @date 2017-12-06 下午 3:40
  * @author: <a href=mailto:huangyr@bonree.com>黄跃然</a>
  * @Description:JDBC连接Druid
  ******************************************************************************/
@@ -26,7 +23,7 @@ public class JDBCDruidDEMO {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
-        // Connect to /druid/v2/sql/avatica/ on your broker. 
+        // Connect to /druid/v2/sql/avatica/ on your broker.
         String url = "jdbc:avatica:remote:url=http://druidmaster:8082/druid/v2/sql/avatica/";
 
         // Set any connection context parameters you need here (see "Connection context" below).

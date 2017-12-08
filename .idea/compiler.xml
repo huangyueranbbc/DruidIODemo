@@ -9,8 +9,8 @@
         <module name="DruidIODemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DruidIODemo" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="DruidIODemo" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

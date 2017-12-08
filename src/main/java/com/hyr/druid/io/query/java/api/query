@@ -1,0 +1,9 @@
+TimeseriesQuery          时间维度
+TopNQuery                TopN
+GroupByQuery             GroupBy
+TimeBoundaryQuery        时间范围
+SearchQuery              搜索
+SelectQuery              select选择查询
+SegmentMetadataQuery     segment元数据
+
+
